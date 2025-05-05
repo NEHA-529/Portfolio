@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neha N | Portfolio</title>
+  <link rel="icon" href="https://github.com/NEHA-529.png" type="image/png" />
+  <style>
+    :root {
+      --primary-color: #1a237e;
+      --accent-color: #e3f2fd;
+      --text-color: #212121;
+      --bg-color: #fafafa;
+      --font-family: 'Segoe UI', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font-family);
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary-color);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+      animation: fadeIn 0.6s ease-in;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      border-left: 6px solid var(--primary-color);
+      padding-left: 12px;
+      margin-bottom: 20px;
+    }
+
+    p, li {
+      font-size: 1.05rem;
+    }
+
+    ul {
+      padding-left: 0;
+      list-style: none;
+    }
+
+    ul li {
+      background-color: var(--accent-color);
+      padding: 12px 20px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .contact a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    .links a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: var(--primary-color);
+      font-weight: 600;
+    }
+
+    .links a:hover {
+      color: #0d47a1;
+    }
+
+    .resume-button {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 20px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+
+    .resume-button:hover {
+      background-color: #0d47a1;
+    }
+
+    footer {
+      background-color: var(--primary-color);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Neha N</h1>
+    <p>Computer Science Student | Sports Lover</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <img src="IMG_20250505_235200.jpg" alt="Neha N" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 20px;">
+      <p>I am a motivated Computer Science student with a strong interest in technology, innovation, and real-world problem solving. I earned 2nd prize for a presentation on "VR and AR in Everyday Life", showcasing my research and presentation skills. I also actively participate in sports, promoting discipline, teamwork, and resilience.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Python (Basic)</li>
+        <li>Java (Basic)</li>
+        <li>Data Structures</li>
+        <li>Data Science</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>VR and AR in Everyday Life</strong> – A presentation exploring the real-world uses of Virtual and Augmented Reality.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Achievements</h2>
+      <ul>
+        <li>2nd Prize – Presentation: "VR and AR in Everyday Life"</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact & Social Links</h2>
+      <div class="contact">
+        <p>Email: <a href="mailto:imneha481@gmail.com">imneha481@gmail.com</a></p>
+        <p>Phone: <a href="tel:+916381434505">+91 63814 34505</a></p>
+      </div>
+      <div class="links">
+        <a href="https://github.com/NEHA-529" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/nehanatarajan529" target="_blank">LinkedIn</a>
+        <a href="https://www.instagram.com/___neha.n___?igsh=MWJpcjU5dzVpeTFkbA==" target="_blank">Instagram</a>
+      </div>
+      <!-- Resume download button -->
+      <a href="Neha_Resume.pdf_20250505_235628_0000.pdf" class="resume-button" download>Download Resume</a>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Neha N. All rights reserved.
+  </footer>
+
+</body>
+</html>
